@@ -1,0 +1,29 @@
+{
+	"presets": [
+		[
+			"@babel/preset-env",
+			{
+				"useBuiltIns": "entry"
+			}
+		],
+		[
+			"@babel/preset-typescript",
+			{
+				"isTSX": true,
+				"allExtensions": true,
+				"jsxPragma": "React"
+			}
+		],
+		"@babel/preset-react"
+	],
+	"plugins": [
+		"@babel/plugin-syntax-dynamic-import",
+		[
+			"@babel/plugin-proposal-class-properties",
+			{
+				"loose": true
+			}
+		],
+		"react-loadable/babel"
+	]
+}

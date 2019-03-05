@@ -1,0 +1,38 @@
+{
+    "name": "parcel-react-ts-starter",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "tslint": "tslint --project tsconfig.json -c tslint.json",
+        "build": "parcel build src/frontend/public/index.html",
+        "dev": "parcel src/frontend/public/index.html -p 4200 --open"
+    },
+    "keywords": ["Parcel", "Typescript", "React", "React Router"],
+    "author": "Michael Agyeman",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.3.3",
+        "@babel/plugin-proposal-class-properties": "^7.3.3",
+        "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+        "@babel/polyfill": "^7.2.5",
+        "@babel/preset-react": "^7.0.0",
+        "@babel/preset-typescript": "^7.3.3",
+        "@types/react": "^16.8.4",
+        "@types/react-dom": "^16.8.2",
+        "@types/react-router-dom": "^4.3.1",
+        "@types/react-loadable": "^5.5.0",
+        "parcel-bundler": "^1.11.0",
+        "sass": "^1.17.2",
+        "tslint": "^5.13.0",
+        "tslint-react": "^3.6.0",
+        "typescript": "^3.3.3333"
+    },
+    "dependencies": {
+        "react": "^16.8.3",
+        "react-dom": "^16.8.3",
+        "react-loadable": "^5.5.0",
+        "react-router-dom": "^4.3.1"
+    }
+}
